@@ -1,0 +1,46 @@
+pwd
+
+ls ~/music/
+
+nano or vim
+
+cat ~/music/patterns.txt
+
+(Bonus) diff ~/music/patterns.txt ~/music/symmetry.py
+
+mv ~/music/patterns.txt ~/math/calculus/
+
+rm ~/math/geometry/triangle.txt
+
+cd ../math
+
+git init
+
+git remote add origin https://github.com/goldenchest2000/math.git
+
+cp ~/music/symmetry.txt ~/math/
+
+git status, no, as the changes were not added through git command
+
+git add symmetry.txt, git add .
+
+The file is now staged, so yes. To unstage it, use git reset HEAD symmetry.txt
+
+git commit -m “something that tells future you what you did”
+
+git push origin master, master is the default branch
+
+git branch applied_math
+
+git checkout applied_math
+
+git add physics/, git commit -m “Added physics/ directory and mechanics.txt with fun facts”, git push origin applied_math
+
+If you switch back to the original branch before this process it will carry the changes over to it.
+
+git branch, the one highlighted in green is the one you’re currently on
+
+git checkout applied_math (or math depending on what ‘original branch’ means)
+
+git merge applied_math
+
